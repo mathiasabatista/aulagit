@@ -1,0 +1,22 @@
+body{
+    background-color: blueviolet;
+    color: white;
+    
+
+}
+button{
+background-color: blue;
+padding: 25px; 
+border-radius: 100%;
+}
+
+h1{
+    background-color: #c2c2c2;
+    width: 400px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}

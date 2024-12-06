@@ -1,0 +1,8 @@
+body {
+    margin: 30px;
+    color: #ffffff;
+    background-color: brown;
+    cursor: pointer;
+    column-rule-color: #ff0000;
+    cursor: all-scroll;
+}

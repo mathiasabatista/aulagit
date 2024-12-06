@@ -1,0 +1,17 @@
+p{
+    background-color: rgb(62, 44, 79);
+    color:gray ;
+}
+h2{ 
+    font: 1em sans-serif; color: #ff0000;
+}
+ button{
+margin: 30px;
+color: #0004ff;
+background-color: brown;
+cursor: pointer;
+column-rule-color: #ff0000;
+cursor: all-scroll;     
+    }
+
+ 

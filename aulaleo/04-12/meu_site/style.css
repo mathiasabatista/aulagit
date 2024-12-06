@@ -1,0 +1,209 @@
+/* Estilos para dispositivos móveis */
+@media (max-width: 768px) {
+    #cabecalho-desk {
+        display: none;
+    }
+
+    .cabecalho {
+        text-align: center;
+        font-weight: bold;
+        background-color: #741a9e;
+    }
+
+    .cabecalho_logo {
+        padding: 1.5em 0;
+        height: 3.5em;
+        display: flex;
+        justify-content: center;
+    }
+
+    .cabecalho_menu {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        background-color: #272B3A87;
+        padding: 2%;
+    }
+
+    .cabecalho_item-menu a {
+        display: inline-block;
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 1.86em 1.42em;
+        text-decoration: none;
+        color: rgb(159, 6, 6);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    .escondida {
+        display: none;
+    }
+
+    #dropdown-menu {
+        padding: 2%;
+        align-items: start;
+    }
+
+    #dropdown-menu a {
+        text-decoration: none;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(90, 5, 5);
+    }
+}
+
+/* Estilos para desktop */
+@media (min-width: 769px) {
+    #cabecalho-mobile {
+        display: none;
+        /* não exibe o cabeçalho para mobile */
+    }
+
+    .cabecalho {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: hsl(0, 36%, 35%);
+    }
+
+    .cabecalho_logo {
+        padding: 1.5em 0;
+        width: 10.5em;
+        margin-left: 40px;
+    }
+
+
+    .cabecalho_menu {
+        display: flex;
+    }
+
+    .cabecalho_item-menu a {
+        margin-left: 1em;
+        margin-right: 1em;
+        padding: 1.86em 1.42em;
+        text-decoration: none;
+        color: rgb(137, 52, 52);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+
+}
+
+
+.banner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(img/pexels-bogdan-groshev-722715367-22776052.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 500px;
+}
+
+.banner-text {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: #a23838;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    transition: all 0.5s ease;
+}
+
+.banner-text:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.2);
+}
+
+.botao-saiba-mais {
+    transition: all 0.5s ease;
+    background-color: #70658d;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px;
+    width: 120px;
+    margin-top: 5px;
+    align-self: center;
+}
+
+.botao-saiba-mais:hover {
+    transform: translateY(-2px);
+    background-color: #a649d1;
+    box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.3);
+}
+
+.container-pai {
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;
+    background-color: #155a1c;
+}
+
+.container-filho {
+    background-color: #49103b;
+    width: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+}
+
+.imagem_instrumentos {
+    width: 50%;
+    border-radius: 50%;
+}
+
+.texto {
+    color: #7a0272;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 20px;
+    margin-right: 50px;
+}
+
+.imagen2 {
+    width: 400px;
+}
+
+.imagem2:hover {
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+}
+
+.imagen-filha {
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 10px;
+}
+
+.texto {
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 24px;
+    margin-right: 30px;
+
+}
+
+.imagem2 {
+    width: 400px;
+
+}
+
+.imagem2:hover {
+    transform: scale(1.1);
+    transition: all 4.5s 0.5s ease;
+}
+
+.footer{
+    display: flex;
+    padding: 25px;
+    justify-content: space-evenly;
+    background-color: #5c4431;
+}
